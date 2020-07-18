@@ -17,6 +17,7 @@ public class Task3 {
 			System.out.println("入力された数字は0です。");
 		}
 
+
 	}
 
 }

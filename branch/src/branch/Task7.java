@@ -29,7 +29,6 @@ public class Task7 {
 			break;
 	};
 
-
 	}
 
 }

@@ -9,7 +9,8 @@ public class Task6 {
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
 		sc.close();
-		String x ="hi";
+		
+		String x = "hi";
 		switch (num) {
 			case 1:
 				x = "Ⅰ";
@@ -29,8 +30,7 @@ public class Task6 {
 			default:
 				x = "unknown";
 				break;
-
-		};
+		}
 		System.out.println(num + "->" + x);
 
 	}

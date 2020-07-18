@@ -21,6 +21,7 @@ public class Task5 {
 			System.out.println("最大値：" + numB);
 		}
 
+
 	}
 
 }

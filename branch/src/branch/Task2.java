@@ -14,6 +14,7 @@ public class Task2 {
 			System.out.println("値：" + num);
 		}
 
+
 	}
 
 }

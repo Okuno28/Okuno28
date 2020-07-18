@@ -9,9 +9,9 @@ public class Task1 {
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
 		sc.close();
+		
 		if (num < 10) System.out.println("値：" + num * 10);
 		if (num > 10) System.out.println("値：" + num);
-
 
 	}
 
