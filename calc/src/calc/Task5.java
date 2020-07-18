@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class Task5 {
 
 	public static void main(String[] args) {
-		String A="ノートPCの値段：";
-		int B=89800;
-		char C='円';
-		String D=A+B+C;
+		String price = "ノートPCの値段：";
+		int num = 89800;
+		char yen = '円';
+		String A = price + num + yen;
 		Scanner sc = new Scanner(System.in);
-		String str1=sc.nextLine();
-		String str2=sc.nextLine();
+		String str1 = sc.nextLine();
+		String str2 = sc.nextLine();
 		sc.close();
-		String str3=str1+str2;
-		System.out.println(D);
+		String str3 = str1 + str2;
+		System.out.println(A);
 		System.out.println(str1);
 		System.out.println(str2);
 		System.out.println(str3);
