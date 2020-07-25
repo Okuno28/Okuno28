@@ -9,7 +9,8 @@ public class Task2 {
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
 		sc.close();
-		if (num<10) {System.out.println("値：0" + num);
+		if (num < 10) {
+			System.out.println("値：0" + num);
 		}else{
 			System.out.println("値：" + num);
 		}

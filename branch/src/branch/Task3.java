@@ -16,8 +16,5 @@ public class Task3 {
 		}else {
 			System.out.println("入力された数字は0です。");
 		}
-
-
 	}
-
 }

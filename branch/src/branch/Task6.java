@@ -10,7 +10,7 @@ public class Task6 {
 		int num = sc.nextInt();
 		sc.close();
 		
-		String x = "hi";
+		String x;
 		switch (num) {
 			case 1:
 				x = "Ⅰ";
