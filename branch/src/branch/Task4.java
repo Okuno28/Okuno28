@@ -13,12 +13,11 @@ public class Task4 {
 		System.out.println("numB:" + numB);
 		if(numA <= 0 || numB <= 0) {
 			System.out.println("正の数を入力してください。");
-		}else if (numA % numB==0) {
+		}else if (numA % numB == 0) {
 			System.out.println("numBはnumAの約数です。");
 		}else {
 			System.out.println("numBはnumAの約数ではありません。");
 		}
-
 
 	}
 

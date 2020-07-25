@@ -27,7 +27,7 @@ public class Task7 {
 		default:
 			System.out.println("入力を確認してください");
 			break;
-	};
+	}
 
 	}
 
