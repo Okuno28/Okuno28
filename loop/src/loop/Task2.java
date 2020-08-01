@@ -16,10 +16,10 @@ public class Task2 {
 			total += i;
 			System.out.print(i);
 			if (i < num) {
-				System.out.print("+");
+				System.out.print(" + ");
 			}
 		}
-		System.out.println("=" + total);
+		System.out.println(" = " + total);
 	}
 
 }
