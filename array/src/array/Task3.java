@@ -17,19 +17,16 @@ public class Task3 {
 		System.out.println("]");
 
 		int intMax = array[0];
+		int intMin = array[0];
 		for (int i = 1; i < array.length; i++) {
 			if (intMax < array[i]) {
 				intMax = array[i];
 			}
-		}
-		System.out.println("最大値：" + intMax);
-
-		int intMin = array[0];
-		for (int i = 1; i < array.length; i++) {
 			if (intMin > array[i]) {
 				intMin = array[i];
 			}
 		}
+		System.out.println("最大値：" + intMax);
 		System.out.println("最小値：" + intMin);
 	}
 
