@@ -15,11 +15,10 @@ public class Task4 {
 			if(array[i] == null) {
 				System.out.println("---配列にnullがある場合---");
 				return true;
-			}else {
-				System.out.println("---配列にnullがない場合---");
-				return false;
 			}
 		}
+		System.out.println("---配列にnullがない場合---");
+		return false;
 	}
 }
 /*想定結果
