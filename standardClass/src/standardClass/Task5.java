@@ -9,9 +9,9 @@ public class Task5 {
 		String animal = "";
 
 		for(int i = 0; i < array.length; i++) {
-			if(array[i].contentEquals("cat")) {
+			if("cat".contentEquals(array[i])) {
 				catNumber++;
-			}else if (array[i].contentEquals("mouse")) {
+			}else if ("mouse".contentEquals(array[i])) {
 				mouseNumber++;
 			}
 		}
