@@ -29,7 +29,15 @@ public class Task1 extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html; charset = UTF-8");
 		PrintWriter out = response.getWriter();
+		out.print("<!DOCTYPE html>");
+		out.print("<head>");
+		out.print("<meta charset = 'UTF-8'>");
+		out.print("<title>task1</title>");
+		out.print("</head>");
+		out.print("<body>");
 		out.print("<h1>HelloServlet</h1>");
+		out.print("</body>");
+		out.print("</html>");
 	}
 
 	/**

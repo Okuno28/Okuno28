@@ -10,8 +10,10 @@
 	</head>
 	<body>
 		<%
-			out.println("<h1>↓" + fortuneBean.getToday() + "↓</h1>");
-			out.println("<h1>" + fortuneBean.getFortune() + "</h1>");
+			if (fortuneBean != null){
+				out.println("<h1>↓" + fortuneBean.getToday() + "↓</h1>");
+				out.println("<h1>" + fortuneBean.getFortune() + "</h1>");
+			}
 		%>
 	</body>
 </html>
