@@ -43,17 +43,17 @@ public class Result extends HttpServlet {
 
 		if (gender == null) {
 			gender = "";
-		}else if (gender.equals("male"))  {
+		}else if ("male".equals(gender))  {
 			gender = "男性";
-		}else if(gender.equals("female")){
+		}else if("female".equals(gender)){
 			gender = "女性";
 		}
 
-		if (help.equals("1")) {
+		if ("1".equals(help)) {
 			help = "製品について";
-		}else if (help.equals("2")){
+		}else if ("2".equals(help)){
 			help = "不具合やクレーム";
-		}else if(help.equals("3")){
+		}else if("3".equals(help)){
 			help = "アフターサポート";
 		}
 		PrintWriter out = response.getWriter();

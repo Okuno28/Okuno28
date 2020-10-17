@@ -45,7 +45,7 @@ public class CountCookie extends HttpServlet {
 		//nullCheck
 		if(visits != null) {
 			for (int i = 0; i<visits.length; i++) {
-				if(visits[i].getName().equals("visited")) {
+				if("visited".equals(visits[i].getName())) {
 					visitedCookie = visits[i];
 				}
 			}
