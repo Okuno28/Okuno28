@@ -40,14 +40,14 @@ public class UpdateEmployee extends HttpServlet {
 			String sql = "UPDATE employee SET name = ? WHERE id = ?";
 			PreparedStatement ps = con.prepareStatement(sql);
 
+			String name = request.getParameter("name");
+			ps.setString(1, name);
+
 			String id = request.getParameter("id");
 			int num = Integer.parseInt(id);
 			ps.setInt(2, num);
 
-			String name = request.getParameter("name");
-			ps.setString(1, name);
-
-			int result = ps.executeUpdate();
+			ps.executeUpdate();
 			ps.close();
 
 		}catch (SQLException e){

@@ -57,7 +57,7 @@ public class register extends HttpServlet {
 			int a = Integer.parseInt(age);
 			ps.setInt(4, a);
 
-			int result = ps.executeUpdate();
+			ps.executeUpdate();
 			ps.close();
 
 		}catch (SQLException e){

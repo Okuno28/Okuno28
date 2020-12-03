@@ -44,7 +44,7 @@ public class DeleteEmployee extends HttpServlet {
 			int num = Integer.parseInt(id);
 			ps.setInt(1, num);
 
-			int result = ps.executeUpdate();
+			ps.executeUpdate();
 			ps.close();
 
 		}catch (SQLException e){
